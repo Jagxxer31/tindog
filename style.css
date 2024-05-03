@@ -1,0 +1,102 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+#testimonial{
+  display: flex;
+  flex-direction: column;
+  flex: 1fr 1.5fr 0.5fr 2.5fr;
+  height: 500px;
+  background-color: whitesmoke;
+
+}
+.companies{
+  display: flex;
+  
+  justify-content: center;
+  gap: 90px;
+  margin-top:30px ;
+  @media (max-width:998px) {
+    flex-direction: column;
+    .cim{
+    object-fit:contain;
+    height: 25px;
+    }
+    gap: 9px;
+  }
+
+}
+.cim{
+  height: 40px;
+}
+
+.pebbles{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.dog{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  object-fit:cover;
+}
+.dogcontain{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  margin: 50px 0px;
+}
+#title > div > div > div.col-10.col-sm-8.col-lg-6 > img{
+  height: 600px;
+  width: 350px;
+  display: flex;
+  align-items: end;
+  height:max-content;
+
+}
+button p{
+  display: inline;
+  color: white;
+  margin: 0px 1px;
+  padding: 0px 10px;
+  font-size: 20px;
+}
+button{
+  height: 50px;
+  padding: 0px 60px;
+}
+.butt{
+  padding: 0px 10px
+}
+.butt img{
+  height: 23px;
+  position: relative;
+  bottom: 5px;
+}
